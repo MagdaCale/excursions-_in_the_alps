@@ -13,27 +13,27 @@ body {
     width: 1440px;
 }
 h1 {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 300;
     color: #999;
-    padding: 15px;
+    padding: 10px 100px;
     background-color: #fff;
-    height: 40px;
+    height: 50px;
     font-family: 'Cinzel', serif;
 }
 header {
-    height: 600px;
+    height: 610px;
     background-image: url(../img/Alpen-bg.avif);
+    background-position: center;
 }
 header div {
-    width: 250px;
+    width: 300px;
     margin-left: 600px;
 }
 .h2 {
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 300;
-    text-align: center;
-    padding-top: 200px;
+    padding-top: 160px;
     font-family: 'Cinzel', serif;
 }
