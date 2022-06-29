@@ -9,6 +9,7 @@ font-family: 'Poppins', sans-serif;*/
     box-sizing: border-box;
 }
 body {
+    width: 1440px;
     color: #333;
 }
 /* ------  Header  -------- */
@@ -32,7 +33,6 @@ header {
     color: #fff;
     font-size: 50px;
     font-weight: 300;
-
     margin: 160px auto;
     width: 300px;
     font-family: 'Cinzel', serif;
@@ -40,7 +40,7 @@ header {
 /* ------  Main  -------- */
 
 main {
-    padding: 0 80px;
+    padding: 0 100px;
 }
 article p {
     margin-bottom: 50px;
@@ -57,6 +57,7 @@ article h3 {
 .Trip {
     text-align: center;
     font-size: 12px;
+    font-weight: 200;
     font-family: 'Poppins', sans-serif; 
 }
 .berge img {
