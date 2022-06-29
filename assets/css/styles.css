@@ -9,9 +9,8 @@ font-family: 'Poppins', sans-serif;*/
     box-sizing: border-box;
 }
 
-body {
-    width: 1440px;
-}
+/* ------  Header  -------- */
+
 h1 {
     font-size: 15px;
     font-weight: 300;
@@ -25,15 +24,38 @@ header {
     height: 610px;
     background-image: url(../img/Alpen-bg.avif);
     background-position: center;
-}
-header div {
-    width: 300px;
-    margin-left: 600px;
+    background-repeat: no-repeat;
 }
 .h2 {
     color: #fff;
     font-size: 50px;
     font-weight: 300;
-    padding-top: 160px;
+
+    margin: 160px auto;
+    width: 300px;
     font-family: 'Cinzel', serif;
+}
+/* ------  Main  -------- */
+main {
+    padding: 0 80px;
+}
+article h3 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 60px;
+}
+.Trip {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; 
+}
+.berge img {
+    padding: 15px;
+    width: 20%;
+}
+.berge {
+    display: flex;
+    justify-content: center;
 }
