@@ -47,6 +47,8 @@ article h3 {
     font-size: 20px;
     padding: 60px;
 }
+/* ------  Trip & Pictures  -------- */
+
 .Trip {
     text-align: center;
     font-size: 12px;
@@ -54,20 +56,26 @@ article h3 {
 }
 .berge img {
     padding: 15px;
-    width: 20%;
+    width: 30%;
 }
 .berge {
     display: flex;
     justify-content: center;
 }
+/* ------  Trip & Pictures  -------- */
+
+
+/* ------  Tour Dates  -------- */
+
 article ul {
-    font-family: 'Poppins', sans-serif; 
     line-height: 45px;
     list-style-type: none;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif; 
 }
 .soldout::after {
     color: red;
-content: " - SOLD OUT";
+    content: " - SOLD OUT";
 }
 .only4spotavailable::after {
     color: red;
@@ -77,3 +85,22 @@ content: " - SOLD OUT";
     color: green;
     content: " - AVAILABLE";
 }
+/* ------  Tour Dates  -------- */
+
+/* ------  Footer  -------- */
+
+footer {
+    border: 1px solid lightgray;
+    height: 110px;
+    padding: 30px;
+}
+.contact {
+    text-align: center;
+}
+footer a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+/* ------  Footer  -------- */
